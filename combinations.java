@@ -8,7 +8,7 @@ class Solution {
     }
     public void addCombination(int n,int start, int k,List<Integer> comb, List<List<Integer>> res){
         if(comb.size() == k){
-            res.add(new ArrayList(comb));
+            res.add(new ArrayList<>(comb));
             return;
         }
         
